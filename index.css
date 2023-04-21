@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    content: '';
+    background:url("University-of-Illinois-Zoom-background-8-3.jpg");
+    background-repeat: no repeat;
+    background-size:cover;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    font-size: 62.5%;
+}
+
+.form-body{
+    position: absolute;
+    padding: 2rem;
+    margin: 1rem 20rem;
+    width: 57rem;
+    height: 100rem;
+    background-color: rgb(172, 172, 167);
+    opacity: 0.8;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.heading{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input{
+    color: black;
+    font-size: medium;
+    font-weight:bold;
+    padding: 2rem;
+
+}
+.input input{
+    width: 100%;
+    height: 3rem;
+    padding: .2rem;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.branch select{
+    width: 100%;
+    height: 3rem;
+    padding: .2rem;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.radio{
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+    width: 100%;
+    padding: 2rem;
+}
+
+.radio input[type="radio"]{
+    margin:.5rem 1rem 0;
+}
+
+.radio input[type="checkbox"]{
+    margin:.5rem 1rem 0;
+}
+.input textarea{
+    width: 100%;
+    height: 7rem;
+    padding: .2rem;
+    opacity: 0.9;
+    border-radius: 1rem;
+}
+.btns{
+    text-align: center;
+    padding: 0 0 3rem;
+}
+
+@media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+    .form-body{
+        height: 133rem;
+    }
+}
+
+@media(max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+    .form-body{
+        height: 145rem;
+    }
+}

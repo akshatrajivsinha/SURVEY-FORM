@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="form-body">
+        <form action="">
+            <div class="heading">
+                <h1>COLLEGE SURVEY FORM</h1>
+            </div>
+            
+            <div class="name input">
+                <label for="name">NAME</label><br>
+                <input type="text" name="NAME" placeholder="Enter your name">
+            </div>
+            <div class="email input">
+                <label for="email">EMAIL</label><br>
+                <input type="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="rollnumber input">
+                <label for="rollnumber">ROLL NO</label><br>
+                <input type="rollnumber" name="rollnumber" placeholder="Enter your Roll no">
+            </div>
+            <div class="branch input">
+                <label for="branch">CHOOSE A BRANCH</label><br>
+                    <select name="branch input">
+                      <option value="IT">IT</option>
+                      <option value="ECE">ECE</option>
+                      <option value="EEE">EEE</option>
+                      <option value="CSE">CSE</option>
+                    </select>
+            </div>
+
+            <div class="radio">
+                <label for="services">HOW MANY OF THESE SERVICES HAS THE STUDENT AVAILED?</label><br>
+                <input type="checkbox" name="checkbox" value="HOSTEL">
+                <label for="hostel">HOSTEL</label>
+                <input type="checkbox" name="checkbox" value="LIBRARY">
+                <label for="library">LIBRARY</label>
+                <input type="checkbox" name="checkbox" value="BUS">
+                <label for="bus">BUS</label>
+                <input type="checkbox" name="checkbox" value="COLLEGE WIFI">
+                <label for="college wifi">COLLEGE WIFI</label>
+            </div>
+
+            <div class="mess radio">
+                <label for="mess">MESS</label><br>
+                <input type="radio" name="messrating" value="NOT_GOOD" checked>
+                <label for="not_good">NOT GOOD</label>
+                <input type="radio" name="messrating" value="SATISFACTORY">
+                <label for="satisfactory">SATISFACTORY</label>
+                <input type="radio" name="messrating" value="VERY_GOOD">
+                <label for="very_good">VERY GOOD</label>
+                <input type="radio" name="messrating" value="EXCELLENT">
+                <label for="excellent">EXCELLENT</label>
+            </div>
+
+            <div class="canteen radio">
+                <label for="canteen">CANTEEN</label><br>
+                <input type="radio" name="canteenrating" value="NOT_GOOD" checked>
+                <label for="not_good">NOT GOOD</label>
+                <input type="radio" name="canteenrating" value="SATISFACTORY">
+                <label for="satisfactory">SATISFACTORY</label>
+                <input type="radio" name="canteenrating" value="VERY_GOOD">
+                <label for="very_good">VERY GOOD</label>
+                <input type="radio" name="canteenrating" value="EXCELLENT">
+                <label for="excellent">EXCELLENT</label>
+            </div>
+
+            <div class="library radio">
+                <label for="library">LIBRARY</label><br>
+                <input type="radio" name="libraryrating" value="NOT_GOOD" checked>
+                <label for="not_good">NOT GOOD</label>
+                <input type="radio" name="libraryrating" value="SATISFACTORY">
+                <label for="satisfactory">SATISFACTORY</label>
+                <input type="radio" name="libraryrating" value="VERY_GOOD">
+                <label for="very_good">VERY GOOD</label>
+                <input type="radio" name="libraryrating" value="EXCELLENT">
+                <label for="excellent">EXCELLENT</label>
+            </div>
+
+            <div class="input">
+                <p>ENETR YOUR QUERY</p>
+                <textarea name="message" placeholder="Enter your query"></textarea>
+            </div>
+            <div class="input">
+                <p>ENETR YOUR SUGGESTION</p>
+                <textarea name="message" placeholder="Enter your suggestion"></textarea>
+            </div>
+            <div class="btns">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
